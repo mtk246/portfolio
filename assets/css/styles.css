@@ -1,0 +1,71 @@
+:root {
+    --color-1: #fff;
+    --color-2: #ececec;
+    --color-3: #6495ed;
+    --color-4: #F9B329;
+    --radius-1: 1.5rem;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/**** Scrollbar ****/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ececec;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6495ed;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/**** Scrollbar End****/
+
+.port-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.section-1-content {
+    background-color: var(--color-2);
+    border-radius: var(--radius-1);
+}
+
+.card {
+    /* border: none; */
+}
+
+.card-body {
+    padding: 0.6rem !important;
+}
+
+.position {
+    color: var(--color-3);
+}
+
+.btn {
+    background-color: var(--color-3) !important;
+    color: var(--color-1);
+}
+
+.btn:hover {
+    background-color: var(--color-4) !important;
+    color: var(--color-1) !important;
+}
