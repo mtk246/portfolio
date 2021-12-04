@@ -3,6 +3,10 @@
     <a href="https://mtk-portfolio.herokuapp.com" class="btn"><img src="https://img.icons8.com/office/22/000000/home--v2.png" /> Back</a>
     <a href="https://docs.google.com/document/d/1RnmMq6gn5ILy0L1LAUqaVUo58rPDuc59TuWb-xX3_EQ" class="btn">Show as DOCX</a>
 </div>
+<div class="res container">
+    Click <span> <a href="https://docs.google.com/document/d/1RnmMq6gn5ILy0L1LAUqaVUo58rPDuc59TuWb-xX3_EQ" class="btn">Here</a>
+    </span> if showing resume is not working.
+</div>
 <iframe src="https://docs.google.com/document/d/1RnmMq6gn5ILy0L1LAUqaVUo58rPDuc59TuWb-xX3_EQ/preview" style="height: -webkit-fill-available;width: -webkit-fill-available">
 </iframe>
 <?php include_once("template/footer.php"); ?>
