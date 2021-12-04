@@ -6,7 +6,7 @@
         <a href="portfolio_pdf.php" class="btn">Show Resume</a>
     </div>
 </div>
-<div class="container-fluid section-2">
+<div class="container-fluid section-2 pb-3">
     <div class="container py-3 mx-auto my-3 section-2-content">
         <h1 class="display-5 fw-bolder">About Me</h1>
         <p class="fw-light">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <div class="container py-3 mx-auto my-3 section-2-content">
+    <div class="container py-3 mx-auto my-3 section-3-content">
         <h1 class="display-5 fw-bolder">Contact Info</h1>
         <p class="fw-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in consequatur, aperiam, cupiditate doloremque vero consequuntur blanditiis, quam hic esse vitae voluptatum totam expedita obcaecati enim itaque rem architecto officia.

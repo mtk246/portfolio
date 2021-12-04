@@ -48,8 +48,17 @@ html, body {
     border-radius: var(--radius-1);
 }
 
-.card {
-    /* border: none; */
+.section-3-content {
+    background-color: var(--color-2);
+    border-radius: var(--radius-1);
+}
+
+.section-2-content, .section-3-content {
+    padding: 2rem;
+}
+
+.card, ul, li {
+    background-color: transparent !important;
 }
 
 .card-body {
