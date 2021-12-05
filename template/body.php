@@ -51,7 +51,7 @@
     <div class="container py-3 mx-auto my-3 section-3-content">
         <h1 class="display-5 fw-bolder">Contact Info</h1>
         <p class="fw-light">
-            Contact me via
+            Contact me via hello
         </p>
         <div class="container-fluid p-0">
             <div class="row">
