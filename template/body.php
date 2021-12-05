@@ -3,12 +3,42 @@
         <img src="https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80" class="port-img" alt="portfolio-image">
         <h1 class="display-5 fw-bolder">Min Thu Kyaw</h1>
         <h3 class="fw-light">FullStack Developer</h3>
-        <a href="portfolio_pdf.php" class="btn">Show Resume</a>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal">
+            Show Resume
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title display-5 fw-bold" id="Modal">Resume</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="res container">
+                            Click <span> <a href="https://docs.google.com/document/d/1RnmMq6gn5ILy0L1LAUqaVUo58rPDuc59TuWb-xX3_EQ" class="btn btn1">Here</a>
+                            </span> if showing resume is not working.
+                        </div>
+                        <div>
+                            <iframe src="" style="height: 500px;width: 100%;">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="https://docs.google.com/document/d/1RnmMq6gn5ILy0L1LAUqaVUo58rPDuc59TuWb-xX3_EQ" class="btn btn1">Show as DOCX</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container-fluid section-2 pb-3">
     <div class="container py-3 mx-auto my-3 section-2-content">
-        <h1 class="display-5 fw-bolder">About Me</h1>
+        <h1 class="display-5 fw-bolder heading-title">About Me</h1>
         <p class="fw-semibold">
             I am interested in Programming, Web Development, and Web Design. I am a programmer with a passion for learning and problem solving. I am currently working as a PHP Developer at a local company. I am fluent in HTML, CSS, PHP, Vanilla JavaScript, jQuery, MySQL, Laravel, REST API and GIT. I mostly use Front-End Development with PHP, Javascript, jQuery, Bootstrap and sometimes React.js . And Back-End as Laravel,MySQL,REST API. I also familiar with AWS EC2 (Windows,Linux), RDS, Codecommit, Heroku Deploy, Heroku DBs (JawsDB,ClearDB). I am also familiar with Python, and Java.
         </p>
@@ -23,7 +53,7 @@
                                     Attended School at BEMS(1)Dagon & BEHS(1)Dagon
                                 </li>
                                 <li class="list-group-item border-0">
-                                    Currently attending University at <a href="https://goo.gl/maps/H642nFcZ9mJMczx48" class="btn">West Yangon Technological University</a>
+                                    Currently attending University at <a href="https://goo.gl/maps/H642nFcZ9mJMczx48" class="btn btn1">West Yangon Technological University</a>
                                     <br /><span class="fs-6 fw-bold">(2017-Present)</span>
                                 </li>
                             </ul>
@@ -36,10 +66,10 @@
                             <h1 class="fs-4 fw-bold">Job Profile</h1>
                             <ul class="list-group list-group-numbered">
                                 <li class="list-group-item border-0">
-                                    <span class="position fw-bolder">FullStack Developer</span> at <span><a href="https://kopwar.com.mm" class="btn">Kopwar, Household Services</a></span><br /><span class="fs-6 fw-bold">(Feb 2020-Nov 2021)</span>
+                                    <span class="position fw-bolder">FullStack Developer</span> at <span><a href="https://kopwar.com.mm" class="btn btn1">Kopwar, Household Services</a></span><br /><span class="fs-6 fw-bold">(Feb 2020-Nov 2021)</span>
                                 </li>
                                 <li class="list-group-item border-0">
-                                    <span class="position fw-bolder">Freelancer</span> at <span><a href="https://khitkabarfooddistributor.business.site/" class="btn">Khit Kabar Food Distribution</a></span><br /><span class="fs-6 fw-bold">(Nov 2021-Present)</span>
+                                    <span class="position fw-bolder">Freelancer</span> at <span><a href="https://khitkabarfooddistributor.business.site/" class="btn btn1">Khit Kabar Food Distribution</a></span><br /><span class="fs-6 fw-bold">(Nov 2021-Present)</span>
                                 </li>
                             </ul>
                         </div>
@@ -49,7 +79,7 @@
         </div>
     </div>
     <div class="container py-3 mx-auto my-3 section-3-content">
-        <h1 class="display-5 fw-bolder">Contact Info</h1>
+        <h1 class="display-5 fw-bolder heading-title">Contact Info</h1>
         <p class="fw-light">
             Contact me via
         </p>
