@@ -3,6 +3,8 @@
     --color-2: #ececec;
     --color-3: #6495ed;
     --color-4: #F9B329;
+    --color-5: #333;
+    --color-6: #222;
     --radius-1: 1.5rem;
 }
 
@@ -17,9 +19,28 @@ html, body {
     color: var(--color-3) !important;
 }
 
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    background-color: var(--color-2);
+    color: var(--color-5);
+    -webkit-transition: background-color 800ms ease;
+    transition: background-color 800ms ease;
+}
+
+body.dark {
+    background-color: var(--color-6);
+    color: var(--color-2);
+}
+
 .modal {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-content.dark {
+    background-color: var(--color-5);
 }
 
 
@@ -32,12 +53,12 @@ html, body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #ececec;
+    background: var(--color-2);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #6495ed;
+    background: var(--color-3);
 }
 
 /* Handle on hover */
@@ -87,6 +108,56 @@ html, body {
 .btn1:hover {
     background-color: var(--color-4);
     color: var(--color-1) !important;
+}
+
+.btn-mode {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.mode-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.dark-button {
+    background-color: var(--color-6);
+    color: #fff;
+}
+
+.dark-button:hover {
+    color: #fff !important
+}
+
+.light-button {
+    background-color: #eaeaea;
+}
+
+.light-button:hover {
+    color: var(--color-5) !important;
+}
+
+.dark-button i {
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+h1.dark, h3.dark {
+    color: var(--color-2);
+}
+
+.section-1-content.dark, .section-3-content.dark {
+    background-color: var(--color-5);
+}
+
+.list-group-item.dark {
+    color: var(--color-2);
 }
 
 /* ---------------------------------------------------

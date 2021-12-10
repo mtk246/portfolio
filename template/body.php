@@ -1,8 +1,14 @@
+<button class="btn dark-button btn-mode"><svg class="mode-icon" fill="#6495ed" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+    </svg></button>
+<button class="btn light-button btn-mode" style="display:none;"><svg class="mode-icon" fill="#F9B329" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"></path>
+    </svg></button>
 <div class="container-fluid section-1">
     <div class="container py-3 mx-auto my-3 text-center section-1-content">
         <img src="https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80" class="port-img" alt="portfolio-image">
-        <h1 class="display-5 fw-bolder">Min Thu Kyaw</h1>
-        <h3 class="fw-light">FullStack Developer</h3>
+        <h1 class="display-5 fw-bolder head-title">Min Thu Kyaw</h1>
+        <h3 class="fw-light head-desc">FullStack Developer</h3>
 
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal">
