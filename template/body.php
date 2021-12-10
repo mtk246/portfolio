@@ -6,7 +6,8 @@
     </svg></button>
 <div class="container-fluid section-1">
     <div class="container py-3 mx-auto my-3 text-center section-1-content">
-        <img src="https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80" class="port-img" alt="portfolio-image">
+        <img src="https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80" class=" port-img" id="port-img" alt="portfolio-image">
+        <!---- Img src changes in script.js ---->
         <h1 class="display-5 fw-bolder head-title">Min Thu Kyaw</h1>
         <h3 class="fw-light head-desc">FullStack Developer</h3>
 

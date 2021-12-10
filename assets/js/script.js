@@ -37,6 +37,10 @@ if (localStorage.getItem("dark-mode") == "dark") {
   $(".section-3-content").addClass("dark");
   $(".list-group-item").addClass("dark");
   $(".modal-content").addClass("dark");
+  $("#port-img").attr(
+    "src",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewa5-b6vBcQy7aVuTvImiEoCqH0uhN58Ma_TCBUJWWk52AxWeEdrrklmff5r9WGpe_gY&usqp=CAU"
+  );
 
   // hide the 'dark' button
   $(".dark-button").hide();
@@ -56,6 +60,10 @@ $(".dark-button").on("click", function () {
   $(".section-3-content").addClass("dark");
   $(".list-group-item").addClass("dark");
   $(".modal-content").addClass("dark");
+  $("#port-img").attr(
+    "src",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewa5-b6vBcQy7aVuTvImiEoCqH0uhN58Ma_TCBUJWWk52AxWeEdrrklmff5r9WGpe_gY&usqp=CAU"
+  );
 
   // set stored value to 'dark'
   localStorage.setItem("dark-mode", "dark");
@@ -71,6 +79,10 @@ $(".light-button").on("click", function () {
   $(".section-3-content").removeClass("dark");
   $(".list-group-item").removeClass("dark");
   $(".modal-content").removeClass("dark");
+  $("#port-img").attr(
+    "src",
+    "https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80"
+  );
 
   // set stored value to 'light'
   localStorage.setItem("dark-mode", "light");
